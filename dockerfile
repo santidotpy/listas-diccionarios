@@ -1,9 +1,9 @@
 FROM python:3
 
-RUN git clone https://github.com/santidotpy/palindromos.git
+RUN git clone https://github.com/santidotpy/listas-diccionarios.git
 
-WORKDIR /palindromos
+WORKDIR /listas-diccionarios
 
 RUN pip install -r requirements.txt
 
-CMD ["python3", "test_palindromos.py"]
+CMD ["python3", "test_listas_diccionarios.py"]
